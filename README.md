@@ -8,7 +8,7 @@ docker build -t log.io . </br>
 docker run -it -d -p 28777:28777 -p 28778:28778 log.io </br>
 </pre>
 
-#logs
+#log
 <pre>
 [root@putter log.io]# docker logs 1ad6fe573edb
 /usr/lib/python2.6/site-packages/supervisor-3.1.3-py2.6.egg/supervisor/options.py:296: UserWarning: Supervisord is running as root and it is searching for its configuration file in default locations (including its current working directory); you probably want to specify a "-c" argument specifying an absolute path to a configuration file for improved security.

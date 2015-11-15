@@ -8,6 +8,9 @@ docker build -t log.io . </br>
 docker run -it -d -p 28777:28777 -p 28778:28778 log.io </br>
 </pre>
 
+#docker hub
+<pre>docker pull putter/log.io-centos</pre>
+
 #log
 <pre>
 [root@putter log.io]# docker logs 1ad6fe573edb

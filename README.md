@@ -22,7 +22,7 @@ docker run -it -d -p 28777:28777 -p 28778:28778 putter/log.io-centos
 docker run -it -e "PASSWORD=123456" -d -p 28778:28778 -p 28777:28777 putter/log.io-centos
 </pre>
 
-#Username
+#Login
 <pre>
 User : admin
 Pass : ***** (use docker -e for setting your password)

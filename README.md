@@ -1,6 +1,8 @@
 # log.io-docker-centos
 Log.io Dockerfile with Centos
 
+<img src="http://logio.org/screenshot3.png">
+
 #Docker hub
 <pre>docker pull putter/log.io-centos</pre>
 

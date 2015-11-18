@@ -1,22 +1,24 @@
 # log.io-docker-centos
 Log.io Dockerfile with Centos
 
-#how to start log.io
+#Docker hub
+<pre>docker pull putter/log.io-centos</pre>
+
+#Build image from Dockerfile
 <pre>
 git clone https://github.com/Chaturaphut/log.io-docker-centos.git </br>
 docker build -t putter/log.io-centos .</br>
-docker run -it -d -p 28777:28777 -p 28778:28778 putter/log.io-centos </br>
+</pre>
+
+#how to use log.io with Docker image
+<pre>
+docker run -it -d -p 28777:28777 -p 28778:28778 putter/log.io-centos
 </pre>
 
 #HTTP Authentication
 <pre>
-git clone https://github.com/Chaturaphut/log.io-docker-centos.git </br>
-docker build -t putter/log.io-centos .</br>
 docker run -it -e "PASSWORD=123456" -d -p 28778:28778 -p 28777:28777 putter/log.io-centos
 </pre>
-
-#docker hub
-<pre>docker pull putter/log.io-centos</pre>
 
 #Username
 <pre>

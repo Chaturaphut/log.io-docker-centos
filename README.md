@@ -6,7 +6,7 @@ Log.io Dockerfile with Centos
 #Docker hub
 <pre>docker pull putter/log.io-centos</pre>
 
-#Build image from Dockerfile
+#Build images from Dockerfile
 <pre>
 git clone https://github.com/Chaturaphut/log.io-docker-centos.git </br>
 docker build -t putter/log.io-centos .</br>

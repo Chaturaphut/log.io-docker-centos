@@ -13,6 +13,8 @@ RUN npm install socket.io
 RUN npm install -g log.io --user "root"
 
 ADD supervisord.conf /etc/
+ADD docker-entrypoint.sh /entrypoint.sh
+ADD web_server.conf /web_server.conf
 
 EXPOSE 28777 28778
-CMD ["/usr/bin/supervisord"]
+ENTRYPOINT ["/entrypoint.sh"]
